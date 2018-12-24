@@ -1,6 +1,6 @@
 cask 'seadrive' do
-  version '0.9.4'
-  sha256 '077e8562b2cc2aeefdcc252582a440677a368212969a2472d984acab74d9f1d3'
+  version '1.0.0'
+  sha256 'f7a1a1fd46fc204784444a91e2b8d412b905f6d874cca8fb5ebefdd65f1ac927'
 
   # download.seadrive.org was verified as official when first introduced to the cask
   url "https://download.seadrive.org/seadrive-#{version}.dmg"

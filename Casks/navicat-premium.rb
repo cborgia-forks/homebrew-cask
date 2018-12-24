@@ -1,9 +1,9 @@
 cask 'navicat-premium' do
-  version '12.1.7'
-  sha256 'a1605831ad4128d416d6f1b28d6006ccdcb3472af841bc8bed2c8b94d2f2eace'
+  version '12.1.13'
+  sha256 '5aa6d299cd74d5aa36aea67f6da845f2ee9151f38d20aa4bbe5351864bd3a183'
 
   url "http://download.navicat.com/download/navicat#{version.major_minor.no_dots}_premium_en.dmg"
-  appcast 'https://www.navicat.com/en/products/navicat-premium-release-note'
+  appcast 'https://www.navicat.com/updater/v120/sysProfileInfo.php?appName=Navicat%20Premium&appLang=en'
   name 'Navicat Premium'
   homepage 'https://www.navicat.com/products/navicat-premium'
 

@@ -1,8 +1,9 @@
 cask 'fman' do
-  version :latest
-  sha256 :no_check
+  version '1.5.2'
+  sha256 '7f5f50602b514bea2dd4d1e3893f1b8b5b214ffe786ec28079ea9449512a0b51'
 
-  url 'http://download.fman.io/fman.dmg'
+  url "https://fman.io/updates/mac/#{version}.zip"
+  appcast 'https://fman.io/updates/Appcast.xml'
   name 'fman'
   homepage 'https://fman.io/'
 

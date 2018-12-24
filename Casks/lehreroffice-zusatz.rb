@@ -1,6 +1,6 @@
 cask 'lehreroffice-zusatz' do
-  version '2018.14.0'
-  sha256 '636d2612b37ebc78f36db1cf9a382f55ceae455f75fe8cc9848ad084556d02ab'
+  version '2018.17.1'
+  sha256 '57bd12c220c8f7a46611fc5c8e2caa4eb999cc00476b27c6458b01d2c5976a64'
 
   url 'https://www.lehreroffice.ch/lo/dateien/zusatz/lo_zusatz_macos.dmg'
   appcast 'https://www.lehreroffice.ch/services/update/getcurrentversion.php?app=Zusatz'

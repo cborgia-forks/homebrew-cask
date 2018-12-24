@@ -1,10 +1,10 @@
 cask 'jgrasp' do
-  version '2.0.5_01'
-  sha256 'c515b5c3b763799d5c7a9572ca5224595c8461fef561dece6eac08674964accf'
+  version '2.0.5_03'
+  sha256 '4a1fd7ca11b190279582189727ee79ef9fc29bd7c3692aba4a58e60df8c7a23f'
 
-  url "http://www.jgrasp.org/dl4g/jgrasp/jgrasp#{version.no_dots}.pkg"
+  url "https://jgrasp.org/dl4g/jgrasp/jgrasp#{version.no_dots}.pkg"
   name 'jgrasp'
-  homepage 'http://jgrasp.org/index.html'
+  homepage 'https://jgrasp.org/'
 
   pkg "jgrasp#{version.no_dots}.pkg"
 
